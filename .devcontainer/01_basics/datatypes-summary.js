@@ -18,5 +18,17 @@ let myobj={name:"ayush",
 const myfunc=function(){
     console.log("Hello wORLD")
 }
+//_+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//MEMORY
+//STACK(PRIMITIVE) AND HEAP(NON PRIMITIVE)
+let myn="ayushdotcom"
+let anothername=myn
+anothername="chai"
+console.log(myn)
+console.log(anothername)
+let userOne={name:"ayush",UPI:"user@ubi"}
+let userTwo=userOne
+userTwo.UPI="user@ybl"
 
-
+console.log(userOne.UPI)
+console.log(userTwo.UPI)
