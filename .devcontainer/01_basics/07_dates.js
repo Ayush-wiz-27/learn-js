@@ -1,0 +1,20 @@
+let mydate=new Date()
+// console.log(mydate)
+// console.log(mydate.toString())
+// console.log(mydate.toDateString())
+// console.log(mydate.toLocaleString())
+// console.log(mydate.toTimeString())
+// console.log(mydate.getFullYear())
+// console.log(mydate.getDate())
+// console.log(typeof mydate)
+let mycreatedDate=new Date(2025,0,33,8,9)
+console.log(mycreatedDate.toLocaleString());
+let my2=new Date("2025-01-14")
+let my3=new Date("01-14-2025")
+console.log(my2.toDateString())
+console.log(my3.toDateString())
+let mytimestamp=Date.now()
+console.log(Math.floor(Date.now()/1000))
+newdate.toLocaleString('default',{
+    weekday:"long"
+})
